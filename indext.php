@@ -44,9 +44,9 @@ $laptop=[
     ['lanovo 83' , '32gb' , '1tb' ,'65,000']
 ];
 echo" Brand= " . $laptop[0][0]. "ram" . $laptop[0][1]. "rom" . $laptop[0][2]. "per prize:" . $laptop[0][3]."<br>";
-echo" Brand= " . $laptop[1][0]. "ram" . $laptop[1][1]. "rom" . $laptop[1][2]. "per prize:" . $laptop[0][3]."<br>";
-echo" Brand= " . $laptop[2][0]. "ram" . $laptop[2][1]. "rom" . $laptop[2][2]. "per prize:" . $laptop[0][3]."<br>";
-echo" Brand= " . $laptop[2][0]. "ram" . $laptop[2][1]. "rom" . $laptop[2][2]. "per prize:" . $laptop[0][3]."<br>";
+echo" Brand= " . $laptop[1][0]. "ram" . $laptop[1][1]. "rom" . $laptop[1][2]. "per prize:" . $laptop[1][3]."<br>";
+echo" Brand= " . $laptop[2][0]. "ram" . $laptop[2][1]. "rom" . $laptop[2][2]. "per prize:" . $laptop[2][3]."<br>";
+echo" Brand= " . $laptop[3][0]. "ram" . $laptop[3][1]. "rom" . $laptop[3][2]. "per prize:" . $laptop[3][3]."<br>";
 
 
 ?>
