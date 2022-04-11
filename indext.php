@@ -43,3 +43,14 @@ foreach($my_arry as $kays => $value){
     }
 }
 echo "High value is . {$amount}";
+?>
+<h2>Four Asainment</h2>
+<?php
+/**Question 04: 
+
+		Let’s traverse this array(0,10,80,67,60,89,91,56,45,30,95,83,99) and print 0 index then skip 1 index again print 2 skip 3….
+
+ */
+$my_arry2=[0,10,80,67,60,89,91,56,45,30,95,83,99];
+
+echo max($my_arry2);
