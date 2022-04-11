@@ -26,6 +26,30 @@ else{
     echo "{$number} this is not prime number  ";
 }
 ?>
+
+<h2>Second Asainment</h2>
+<?php
+/**Question 02: 
+
+	Let’s think about a use case, Daraz admin’s have some products for uploads on their e-commerce site. So make an array of products which contains 5 products.
+
+Go to daraz website and pick any 5 products and make your array.
+
+Must mention Which type of array you have made. */
+
+$laptop=[
+    ['lanovo 80' , '4gb' , '100gb' ,'30,000'],
+    ['lanovo 81' , '8gb' , '200gb' ,'45,000'],
+    ['lanovo 82' , '16gb' , '300gb' ,'50,000'],
+    ['lanovo 83' , '32gb' , '1tb' ,'65,000']
+];
+echo" Brand= " . $laptop[0][0]. "ram" . $laptop[0][1]. "rom" . $laptop[0][2]. "per prize:" . $laptop[0][3]."<br>";
+echo" Brand= " . $laptop[1][0]. "ram" . $laptop[1][1]. "rom" . $laptop[1][2]. "per prize:" . $laptop[0][3]."<br>";
+echo" Brand= " . $laptop[2][0]. "ram" . $laptop[2][1]. "rom" . $laptop[2][2]. "per prize:" . $laptop[0][3]."<br>";
+echo" Brand= " . $laptop[2][0]. "ram" . $laptop[2][1]. "rom" . $laptop[2][2]. "per prize:" . $laptop[0][3]."<br>";
+
+
+?>
 <h2>Third Asainment</h2>
 <?php
 /**Question 03: 
@@ -54,3 +78,4 @@ echo "High value is . {$amount}";
 $my_arry2=[0,10,80,67,60,89,91,56,45,30,95,83,99];
 
 echo max($my_arry2);
+?>
