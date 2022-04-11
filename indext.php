@@ -35,3 +35,11 @@ else{
 Find the maximum value from this array.
 
 Must use a foreach loop. */
+$my_arry=[0,10,80,67,60,89,91,56,45,30,95,83,99 ] ;
+$amount=0;
+foreach($my_arry as $kays => $value){
+    if($value > $amount){
+        $amount=$value;
+    }
+}
+echo "High value is . {$amount}";
